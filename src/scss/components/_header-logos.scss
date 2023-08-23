@@ -1,0 +1,30 @@
+.header-gov {
+    background-color: $blue-500;
+    padding: .5rem;
+}
+.header-logos-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.header-nav {
+    background-color: $blue-steel-900;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    li{
+        width: 150px;
+        justify-content: center;
+        padding: 0rem .5rem;
+        a {
+            text-transform: uppercase;
+            color: $white;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    }
+}

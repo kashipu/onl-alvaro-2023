@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.header-gov {
+  background-color: #3366CC;
+  padding: 0.5rem;
+}
+
+.header-logos-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header-nav {
+  background-color: #1A212A;
+}
+
+.header-nav-list {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+}
+.header-nav-list li {
+  width: 150px;
+  justify-content: center;
+  padding: 0rem 0.5rem;
+}
+.header-nav-list li a {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.grid-indicadores-cards {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.card-indicadores {
+  max-width: 380px;
+  max-height: 220px;
+  width: 100%;
+  border: 1px solid #BDC0C6;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.card-indicadores-title {
+  border-radius: 4px 4px 0px 0px;
+  background-color: #1A212A;
+  color: #FFFFFF;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.card-indicadores-title-text h2 {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.card-indicadores-title-index {
+  background-color: #3366CC;
+  border-radius: 4px 4px 4px 4px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-indicadores-title-index p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-indicadores-body {
+  padding: 0.8rem 0.8rem;
+}
+
+.card-indicadores-body-image {
+  display: flex;
+}
+
+.body-image img {
+  width: 110px;
+  object-fit: cover;
+}
+
+.text-content {
+  padding: 0.5rem;
+}
+.text-content h3 {
+  font-size: 1rem;
+}
+.text-content p {
+  font-size: 0.8rem;
+}
+
+.card-indicadores-footer {
+  display: flex;
+  justify-content: space-between;
+}
