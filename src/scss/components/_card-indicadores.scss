@@ -4,24 +4,34 @@
 }
 
 .card-indicadores {
-    max-width: 380px;
-    max-height: 220px;
-    width: 100%;
-    border: 1px solid $gray-200;
+    min-width: 350px;
+    max-height: 240px;
+    height: 240px;
+    width: 380px;
+    border: 1px solid #ECEDF0;
     border-radius: 4px 4px 4px 4px;
 }
+
+.card-indicadores-box {
+    display: grid;
+    grid-template-rows: 46px 1fr 55px;
+    align-content: stretch;
+    height: 100%;
+}
+
 .card-indicadores-title {
     border-radius: 4px 4px 0px 0px;
     background-color: $blue-steel-900;
     color: $white;
-    padding: .5rem .5rem;
+    padding: .2rem .8rem;
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 .card-indicadores-title-text {
     h2 {
         font-size: 14px;
-        line-height: 1.5;
+        line-height: 1.2;
         margin: 0;
     }
 }
@@ -40,29 +50,19 @@
 }
 .card-indicadores-body{
     padding: .8rem .8rem;
-}
-// CARD IMAGE
-.card-indicadores-body-image {
-    display: flex;
-}
-
-.body-image {
-    img {
-        width: 110px;
-        object-fit: cover;
-    }
-}
-.text-content {
-    padding: .5rem;
-    h3 {
-        font-size: 1rem;
-    }
     p {
-        font-size: .8rem;
+        font-size: $font-size-xs;
+        margin: 0;
     }
 }
 
 .card-indicadores-footer {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 0rem .8rem;
+}
+
+.footer-btn {
+    align-self: start;
 }

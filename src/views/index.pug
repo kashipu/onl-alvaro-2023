@@ -15,10 +15,13 @@ html(lang="es")
             include components/header-nav.pug
         main
             div(class="container")
-                h1 Indicadores
+                div(class="title-h1")
+                    h1 Indicadores
                 div(class="grid-indicadores-cards")
                     include components/card-indicadores-empty-body.pug
-                    include components/card-indicadores-image.pug
-                    include components/card-indicadores-image.pug
-                div(class="grid-anchor-boxes")
+
+                div(class="grid-anchor-boxes p-2")
                     include components/anchor-boxes.pug
+        footer
+            include components/footer.pug
+            include components/footer.pug

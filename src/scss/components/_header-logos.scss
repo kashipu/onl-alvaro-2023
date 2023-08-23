@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: .57rem;
 }
 .header-nav {
     background-color: $blue-steel-900;
@@ -15,7 +15,7 @@
 .header-nav-list {
     display: flex;
     list-style: none;
-    padding: 1rem;
+    padding: .5rem;
     li{
         width: 150px;
         justify-content: center;

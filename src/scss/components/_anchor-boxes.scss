@@ -1,0 +1,20 @@
+.grid-anchor-boxes {
+    margin-top: 3rem;
+}
+
+.anchor-boxes-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.anchor-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 1.2rem;
+}
+.anchor-link{
+    a {
+        color: $black;
+    }
+}
