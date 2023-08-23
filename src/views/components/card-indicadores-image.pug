@@ -5,12 +5,14 @@ div(class="card-indicadores")
                 h2 KPI : Seguridad humana y justicia social
             div(class="card-indicadores-title-index")
                 p 33%
-        div(class="card-indicadores-body-image")
-                div(class="body-image")
-                    img(src="./images/img-card-image.png" alt="Seguridad humana y justicia social")
-                div(class="text-content")
-                    h3  Seguridad
-                    p  Puertos marítimos con infraestructura para impulsar las exportaciones en 10 años.
-                    div(class="card-indicadores-footer")
-                        a(class="btn btn-primary btn-sm") Ver más
-                        a(class="btn btn-primary btn-sm") Refrescar
+        div(class="card-indicadores-body")
+           .row
+                .col-md-4
+                    img(src="./images/img-card-image.png")
+                .col-md-8
+                    h2.title-card-indicadores Seguridad
+                    p Puertos marítimos con infraestructura para impulsar las exportaciones en 10 años.
+        div(class="card-indicadores-footer")
+            a(class="btn btn-darken-steel btn-sm footer-btn") Ver más
+            a(class="btn btn-refresh btn-sm footer-btn")
+                img(src="./images/refresh.svg", alt="")

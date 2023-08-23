@@ -93,16 +93,16 @@ body {
 
 .card-indicadores {
   min-width: 350px;
-  max-height: 240px;
-  height: 240px;
-  width: 380px;
+  max-height: 500px;
+  height: 250px;
+  width: 400px;
   border: 1px solid #ECEDF0;
   border-radius: 4px 4px 4px 4px;
 }
 
 .card-indicadores-box {
   display: grid;
-  grid-template-rows: 46px 1fr 55px;
+  grid-template-rows: 60px 1fr 55px;
   align-content: stretch;
   height: 100%;
 }
@@ -111,15 +111,15 @@ body {
   border-radius: 4px 4px 0px 0px;
   background-color: #1A212A;
   color: #FFFFFF;
-  padding: 0.2rem 0.8rem;
+  padding: 1rem 0.8rem;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
 .card-indicadores-title-text h2 {
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: 1rem;
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -141,8 +141,15 @@ body {
   padding: 0.8rem 0.8rem;
 }
 .card-indicadores-body p {
-  font-size: 0.75rem;
+  font-size: 1rem;
   margin: 0;
+}
+
+.title-card-indicadores {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #1A212A;
 }
 
 .card-indicadores-footer {
