@@ -1,3 +1,9 @@
 .btn-darken-steel {
     @include generate-button($blue-steel-900, $white);
 }
+.card-title-capsulas {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+}
