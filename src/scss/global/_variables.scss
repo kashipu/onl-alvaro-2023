@@ -4,6 +4,7 @@ $gray-100: #ECEDF0;
 $gray-200: #BDC0C6;
 $blue-500: #3366CC;
 $blue-seg: #0070AB;
+$blue-steel-500: #364252;
 $blue-steel-900: #1A212A;
 $Green-pnd-500: #008142;
 
@@ -18,6 +19,14 @@ $font-size-xxl: 1.5rem; // 24px
 $font-size-xxxl: 1.875rem; // 30px
 $font-size-xxxxl: 2.25rem; // 36px
 $font-size-xxxxxl: 3rem; // 48px
+
+// Breakpoints
+$breakpoint-xs: 390px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
 
 //Font family
 $font-family: 'Work Sans', sans-serif;

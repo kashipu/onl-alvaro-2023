@@ -14,8 +14,35 @@
     z-index: 2;
 }
 
+.responsive-menu {
+    background: $blue-steel-900;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+    display: none;
+    p {
+        margin: 0;
+    }
+    img {
+        width: 30px;
+        margin-right: 10px;
+        color: white;
+    }
+}
+
+.responsive-menu-box {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+}
+
 .header-nav-box {
     background: $blue-steel-900;
+}
+
+.show-menu {
+    display: block!important;
 }
 
 .header-nav-list {
@@ -43,19 +70,90 @@
     margin-top: 0px;
     background-color: white;
     display: none;
-    li {
-        padding: .5rem 1rem;
+}
+
+.header-nav-dropdown-item {
+    position: relative;
+    a {
+        color: $blue-steel-900;
+        text-decoration: none;
+        padding: .8rem;
+        display: flex;
+        height: 100%;
+        font-weight: 500;
         &:hover {
-            background-color: $blue-500;
+            background-color: $blue-steel-900;
             color: $white;
-        }
-        a {
-            color: $blue-steel-900;
-            text-decoration: none;
-            font-weight: 500;
         }
     }
 }
 .header-nav-list-item:hover .nav-list-dropdown {
     display: block;
+}
+
+@media(max-width:$breakpoint-xs) {
+    .header-gov {
+        padding: .2rem;
+        a img {
+            width: 120px;
+        }
+    }
+    .header-logo-potencia {
+        img {
+            width: 120px;
+        }
+    }
+    .header-logo-entidad {
+        img {
+            width: 120px;
+        }
+    }
+    .header-logos-box {
+        padding: 1rem;
+    }
+}
+
+@media(max-width:$breakpoint-sm) {
+    .header-gov {
+        padding: .2rem;
+        a img {
+            width: 120px;
+        }
+    }
+}
+
+@media(max-width:$breakpoint-md) {
+    .responsive-menu {
+        display: flex;
+    }
+    .header-nav-box {
+        background-color: $white;
+        display: none;
+    }
+    .header-nav-list {
+        flex-direction: column;
+    }
+    .nav-list-dropdown {
+        position: relative;
+        width: 100%;
+        margin-top: 0px;
+        background-color: $blue-steel-900;
+        display: block;
+    }
+    .header-nav-list-item {
+        background-color: $blue-steel-500;
+    }
+    .nav-list-dropdown {
+        width: 100%;
+    }
+    .header-nav-list-item {
+        width: 100%;
+    }
+    .header-nav-dropdown-item {
+        background-color: $white;
+        width: 100%;
+        a {
+            color: $blue-steel-900;
+        }
+    }
 }

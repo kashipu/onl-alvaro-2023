@@ -1,3 +1,11 @@
+const buttonBurguer = document.querySelector('#button-burguer');
+const menu = document.querySelector('.header-nav-box');
+console.log(buttonBurguer);
+
+buttonBurguer.addEventListener('click', () => {
+    menu.classList.toggle('show-menu');
+});
+
 $('.slider-cards-indicadores').slick({
         dots: true,
         infinite: false,

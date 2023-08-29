@@ -75,8 +75,35 @@ body {
   z-index: 2;
 }
 
+.responsive-menu {
+  background: #1A212A;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+  display: none;
+}
+.responsive-menu p {
+  margin: 0;
+}
+.responsive-menu img {
+  width: 30px;
+  margin-right: 10px;
+  color: white;
+}
+
+.responsive-menu-box {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+}
+
 .header-nav-box {
   background: #1A212A;
+}
+
+.show-menu {
+  display: block !important;
 }
 
 .header-nav-list {
@@ -107,23 +134,87 @@ body {
   background-color: white;
   display: none;
 }
-.nav-list-dropdown li {
-  padding: 0.5rem 1rem;
+
+.header-nav-dropdown-item {
+  position: relative;
 }
-.nav-list-dropdown li:hover {
-  background-color: #3366CC;
-  color: #FFFFFF;
-}
-.nav-list-dropdown li a {
+.header-nav-dropdown-item a {
   color: #1A212A;
   text-decoration: none;
+  padding: 0.8rem;
+  display: flex;
+  height: 100%;
   font-weight: 500;
+}
+.header-nav-dropdown-item a:hover {
+  background-color: #1A212A;
+  color: #FFFFFF;
 }
 
 .header-nav-list-item:hover .nav-list-dropdown {
   display: block;
 }
 
+@media (max-width: 390px) {
+  .header-gov {
+    padding: 0.2rem;
+  }
+  .header-gov a img {
+    width: 120px;
+  }
+  .header-logo-potencia img {
+    width: 120px;
+  }
+  .header-logo-entidad img {
+    width: 120px;
+  }
+  .header-logos-box {
+    padding: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .header-gov {
+    padding: 0.2rem;
+  }
+  .header-gov a img {
+    width: 120px;
+  }
+}
+@media (max-width: 768px) {
+  .responsive-menu {
+    display: flex;
+  }
+  .header-nav-box {
+    background-color: #FFFFFF;
+    display: none;
+  }
+  .header-nav-list {
+    flex-direction: column;
+  }
+  .nav-list-dropdown {
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #1A212A;
+    display: block;
+  }
+  .header-nav-list-item {
+    background-color: #364252;
+  }
+  .nav-list-dropdown {
+    width: 100%;
+  }
+  .header-nav-list-item {
+    width: 100%;
+  }
+  .header-nav-dropdown-item {
+    background-color: #FFFFFF;
+    width: 100%;
+  }
+  .header-nav-dropdown-item a {
+    color: #1A212A;
+  }
+}
 .grid-indicadores-cards {
   display: flex;
   gap: 1.5rem;
