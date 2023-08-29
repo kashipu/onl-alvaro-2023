@@ -6,7 +6,7 @@ $('.slider-cards-indicadores').slick({
         slidesToScroll: 3,
         responsive: [
           {
-            breakpoint: 1024,
+            breakpoint: 1400,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 3,
@@ -15,10 +15,19 @@ $('.slider-cards-indicadores').slick({
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 1200,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToScroll: 2,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
             }
           },
           {

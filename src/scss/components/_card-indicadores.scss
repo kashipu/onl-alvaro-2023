@@ -8,7 +8,7 @@
     max-height: 500px;
     height: 100%;
     width: 400px;
-    border: 1px solid #ECEDF0;
+    padding: 1rem;
     border-radius: 4px 4px 4px 4px;
 }
 
@@ -16,6 +16,7 @@
     display: grid;
     grid-template-rows: 60px 1fr 55px;
     align-content: stretch;
+    border: 1px solid #ECEDF0;
     height: 100%;
 }
 
