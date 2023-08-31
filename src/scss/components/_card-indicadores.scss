@@ -26,8 +26,8 @@
     color: $white;
     padding: 1rem .8rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
 }
 .card-indicadores-title-text {
     h2 {
@@ -36,6 +36,11 @@
         margin: 0;
     }
 }
+
+.card-image {
+    margin-bottom: 1.5rem;
+}
+
 .card-indicadores-title-index {
     background-color: $blue-500;
     border-radius: 4px 4px 4px 4px;
