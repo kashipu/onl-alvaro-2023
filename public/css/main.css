@@ -176,7 +176,7 @@ body {
   display: block;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 395px) {
   .header-logos-box .header-logo-entidad img {
     width: 130px;
   }
@@ -184,7 +184,7 @@ body {
     width: 120px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 580px) {
   .header-logo-entidad img {
     width: 130px;
   }
@@ -192,7 +192,7 @@ body {
     width: 150px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .logo-gov-co a img {
     width: 135px;
   }
