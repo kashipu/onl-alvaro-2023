@@ -18,6 +18,17 @@ body {
         font-weight: 400;
     }
 }
+
+.title-capsula {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    line-height: 2;
+    h1 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}
+
 .btn-refresh {
     img {
         width: 30px;
@@ -29,3 +40,66 @@ body {
     display: flex;
     gap: 1.5rem;
 }
+.visor-box {
+    padding: 2rem 0rem;
+}
+.visor-frame {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.bg-dha-green {
+    background-color: #008142;
+}
+
+.bg-ota-mutach {
+    background-color: #c89832;
+}
+
+.bg-cr-blue {
+    background-color: #182342;
+}
+
+.bg-cr-blue-200 {
+    background-color: #707088;
+}
+
+.bg-tpa-red {
+    background-color: #DE4934;
+}
+
+.bg-shj-blue-dark {
+    background-color: #132A36;
+}
+
+.bg-blue-light {
+    background-color: $bg-blue-light;
+}
+
+.color-dha-green {
+    color: #008142;
+}
+
+.color-ota-mutach {
+    color: #c89832;
+}
+
+.color-cr-blue {
+    color: #182342;
+}
+
+.color-cr-blue-200 {
+    color: #707088;
+}
+
+.color-tpa-red {
+    color: #DE4934;
+}
+
+.color-shj-blue-dark {
+    color: #132A36;
+}
+
+
+
+

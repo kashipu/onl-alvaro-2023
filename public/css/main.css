@@ -18,6 +18,16 @@ body {
   font-weight: 400;
 }
 
+.title-capsula {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  line-height: 2;
+}
+.title-capsula h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 .btn-refresh img {
   width: 30px;
   height: 30px;
@@ -26,6 +36,67 @@ body {
 .slider-cards-indicadores {
   display: flex;
   gap: 1.5rem;
+}
+
+.visor-box {
+  padding: 2rem 0rem;
+}
+
+.visor-frame {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.bg-dha-green {
+  background-color: #008142;
+}
+
+.bg-ota-mutach {
+  background-color: #c89832;
+}
+
+.bg-cr-blue {
+  background-color: #182342;
+}
+
+.bg-cr-blue-200 {
+  background-color: #707088;
+}
+
+.bg-tpa-red {
+  background-color: #DE4934;
+}
+
+.bg-shj-blue-dark {
+  background-color: #132A36;
+}
+
+.bg-blue-light {
+  background-color: #EDF2F8;
+}
+
+.color-dha-green {
+  color: #008142;
+}
+
+.color-ota-mutach {
+  color: #c89832;
+}
+
+.color-cr-blue {
+  color: #182342;
+}
+
+.color-cr-blue-200 {
+  color: #707088;
+}
+
+.color-tpa-red {
+  color: #DE4934;
+}
+
+.color-shj-blue-dark {
+  color: #132A36;
 }
 
 .btn-darken-steel {
@@ -273,7 +344,6 @@ body {
 }
 
 .card-indicadores-title-index {
-  background-color: #3366CC;
   border-radius: 4px 4px 4px 4px;
   width: 100px;
   display: flex;
@@ -345,4 +415,14 @@ body {
 footer {
   background-color: #1A212A;
   height: 10rem;
+}
+
+.capsula-img img {
+  width: 100%;
+  aspect-ratio: 324/125;
+}
+
+.capsula-subtitle h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
