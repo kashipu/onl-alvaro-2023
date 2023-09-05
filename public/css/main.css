@@ -317,7 +317,7 @@ body {
 
 .card-indicadores-box {
   display: grid;
-  grid-template-rows: 60px 1fr 55px;
+  grid-template-rows: 60px 1fr;
   align-content: stretch;
   border: 1px solid #ECEDF0;
   height: 100%;
@@ -356,12 +356,24 @@ body {
   font-weight: 600;
 }
 
-.card-indicadores-body {
-  padding: 0.8rem 0.8rem;
+.body-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
-.card-indicadores-body p {
-  font-size: 1rem;
+.body-box .body-image {
+  padding: 0rem 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.body-box .body-image img {
+  width: 100px;
+  height: 100px;
+  aspect-ratio: 1/1;
   margin: 0;
+}
+.body-box .body-content {
+  padding: 0.8rem;
 }
 
 .title-card-indicadores {
@@ -375,7 +387,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 0.8rem;
+  padding-top: 0.8rem;
 }
 
 .footer-btn {
