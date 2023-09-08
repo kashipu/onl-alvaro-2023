@@ -10,7 +10,7 @@
 .anchor-list {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: .2rem;
     padding-left: 1.2rem;
 }
 .anchor-link{
@@ -19,10 +19,19 @@
     }
 }
 .consulta-indicadores {
+    width: 100%;
+    height: 100%;
     padding: .5rem;
     background-color: $blue-gray-100;
-    a {
-        text-decoration: none;
-        color: $blue-steel-900;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.anchor-box-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    img {
+        width: 80px;
     }
 }

@@ -1,5 +1,5 @@
-.btn-darken-steel {
-    @include generate-button($blue-steel-900, $white);
+.btn-blue-background {
+    @include generate-button($blue-backgrounds, $white);
 }
 .card-title-capsulas {
     font-size: 1rem;
