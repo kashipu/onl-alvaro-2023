@@ -1,3 +1,24 @@
 mixin anchor(href, name)
     li(class="anchor-link")
         a(class="link" href=href) #{name}
+
+
+
+mixin cardIndicadores(titulo, porcentaje, imagen, bodytitle, bodytext, boton)
+    div(class="card-indicadores")
+        div(class="card-indicadores-box")
+            div(class="card-indicadores-title")
+                div(class="card-indicadores-title-text")
+                    h2=titulo
+                div(class="card-indicadores-title-index")&attributes(attributes)
+                    p=porcentaje
+            div(class="card-indicadores-body")
+                .body-box
+                    .body-image
+                        img(class="card-image" src=imagen alt=titulo)
+                    .body-content
+                        div.card-indicadores-text
+                            h2.title-card-indicadores=bodytitle
+                            p=bodytext
+                        div(class="card-indicadores-footer")
+                            a(class="btn btn-blue-background btn-sm footer-btn")=boton

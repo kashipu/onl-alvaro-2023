@@ -133,6 +133,11 @@ body {
   margin-bottom: 0.75rem;
 }
 
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1320px;
+  }
+}
 /* Header GOV CO */
 .header-gov {
   background-color: #3366CC;
@@ -346,25 +351,19 @@ body {
     color: #17191F;
   }
 }
-.grid-indicadores-cards {
-  display: flex;
-  gap: 1.5rem;
-}
-
 .card-indicadores {
+  height: 285px;
   min-width: 350px;
-  max-height: 500px;
-  height: 100%;
+  max-height: 350px;
   width: 400px;
-  padding: 1.11rem;
-  border-radius: 4px 4px 4px 4px;
+  padding: 0.5rem 1rem;
 }
 
 .card-indicadores-box {
   display: grid;
   grid-template-rows: 60px 1fr;
-  align-content: stretch;
   border: 1px solid #ECEDF0;
+  border-radius: 4px 4px 4px 4px;
   height: 100%;
 }
 
@@ -384,10 +383,6 @@ body {
   margin: 0;
 }
 
-.card-image {
-  margin-bottom: 1.5rem;
-}
-
 .card-indicadores-title-index {
   border-radius: 4px 4px 4px 4px;
   width: 100px;
@@ -403,29 +398,31 @@ body {
 }
 
 .body-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: 1fr;
+  height: 100%;
 }
 .body-box .body-image {
-  padding: 0rem 1.2rem;
+  padding: 1.2rem 1rem;
   display: flex;
-  align-items: center;
 }
 .body-box .body-image img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   aspect-ratio: 1/1;
   margin: 0;
 }
 .body-box .body-content {
   padding: 0.8rem;
+  display: grid;
+  grid-template-rows: 1fr;
 }
 
 .title-card-indicadores {
   font-size: 1rem;
   font-weight: 600;
-  margin: 0;
+  margin: 0.5rem 0rem;
   color: #1A212A;
 }
 
@@ -433,7 +430,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-top: 0.8rem;
 }
 
 .footer-btn {
