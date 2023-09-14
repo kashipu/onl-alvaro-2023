@@ -1,0 +1,27 @@
+.slider-cards-box {
+    padding: 0rem 2rem;
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+.slick-next {
+    right: -25px;
+}
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}
+
+.slick-next:before{
+    content: url(../images/arrow-right.svg);
+}
+.slick-prev:before{
+    content: url(../images/arrow-left.svg);
+}

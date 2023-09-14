@@ -11,12 +11,6 @@ gulp.task('views', () => {
     .pipe(gulp.dest('./public'))
 })
 
-gulp.task('bootstrap', () => {
-    return gulp.src('./src/scss/bootstrap/bootstrap.scss')
-    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-    .pipe(gulp.dest('./public/css'))
-})
-
 gulp.task('styles', () => {
     return gulp.src('./src/scss/*.scss')
     .pipe(sass().on('error', sass.logError))
@@ -38,6 +32,5 @@ gulp.task('imageop', () => {
 
 gulp.task('default', () => {
     gulp.watch('./src/views/**/*.pug', gulp.series('views'))
-    gulp.watch('./src/scss/bootstrap/**/*.scss', gulp.series('bootstrap'))
     gulp.watch('./src/scss/**/*.scss', gulp.series('styles'))
 })
