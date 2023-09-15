@@ -22,3 +22,14 @@ mixin cardIndicadores(titulo, porcentaje, imagen, bodytitle, bodytext, boton)
                             p=bodytext
                         div(class="card-indicadores-footer")
                             a(class="btn btn-blue-background btn-sm footer-btn")=boton
+
+
+mixin capsulaCard(imagen, titulo, texto, boton)
+    .card
+        img.card-img-top(src=imagen alt=titulo)
+        .card-body
+            a(class="capsula-link" href="#")
+                h3.card-title-capsulas=titulo
+            p.card-text-capsulas=texto
+        .card-footer
+            a.btn.btn-outline-primary.btn-sm(href='#')=boton

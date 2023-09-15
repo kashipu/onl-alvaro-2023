@@ -8,6 +8,20 @@
     margin-bottom: 0.75rem;
 }
 
+.btn-outline-primary {
+    background-color: $white;
+}
+
+.card {
+    height: 90%;
+}
+
+.card-footer {
+    background-color: $white;
+    border: none;
+    padding: 1.2rem 1.5rem;
+}
+
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1320px;
