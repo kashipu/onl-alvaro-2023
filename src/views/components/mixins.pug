@@ -25,11 +25,12 @@ mixin cardIndicadores(titulo, porcentaje, imagen, bodytitle, bodytext, boton)
 
 
 mixin capsulaCard(imagen, titulo, texto, boton)
-    .card
-        img.card-img-top(src=imagen alt=titulo)
-        .card-body
-            a(class="capsula-link" href="#")
-                h3.card-title-capsulas=titulo
-            p.card-text-capsulas=texto
-        .card-footer
-            a.btn.btn-outline-primary.btn-sm(href='#')=boton
+    .card-box
+        .card
+            img.card-img-top(src=imagen alt=titulo)
+            .card-body
+                a(class="capsula-link" href="#")
+                    h3.card-title-capsulas=titulo
+                p.card-text-capsulas=texto
+            .card-footer
+                a.btn.btn-outline-primary.btn-sm(href='#')=boton

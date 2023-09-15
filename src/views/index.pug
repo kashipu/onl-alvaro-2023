@@ -17,18 +17,7 @@ html(lang="es")
                     div(class="title-h1")
                         h2 Otros Indicadores
                     include components/anchor-boxes.pug
-                .capsulas-grid
-                    div(class="title-h1")
-                        h2 Cápsulas
-                    .row.py-3.mb-5
-                        .col-xl-3.col-md-6.col-sm-12
-                            +capsulaCard("./images/capsula1.png", "SEPT Transporte", "Estrategia para el transporte público colectivo", "Ver definición")
-                        .col-xl-3.col-md-6.col-sm-12
-                            +capsulaCard("./images/capsula2.png", "GINI Indicador de pobreza", "Reducción del índice Gini en la región durante el 2022", "Ver detalles")
-                        .col-xl-3.col-md-6.col-sm-12
-                            +capsulaCard("./images/capsula3.png", "Infraestructura Mapa de vías terciarias", "Registro de vías en región sur-occidental 2015 - 2020", "Ver datos satelitales")
-                        .col-xl-3.col-md-6.col-sm-12
-                            +capsulaCard("./images/capsula4.png", "Cápsulas informativas", "Notas cortas de análisis de datos en el Observatorio ONL", "Consultar otras cápsulas")
+            include components/carousel-capsulas.pug
         include components/scripts.pug
     footer
         include components/footer.pug

@@ -13,13 +13,18 @@
 }
 
 .card {
-    height: 90%;
+    height: 100%;
 }
 
 .card-footer {
     background-color: $white;
     border: none;
     padding: 1.2rem 1.5rem;
+}
+
+.card-body {
+    padding-top: 1.25rem;
+    padding-bottom: 0rem;
 }
 
 @media (min-width: 1400px) {

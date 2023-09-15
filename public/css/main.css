@@ -125,13 +125,18 @@ body {
 }
 
 .card {
-  height: 90%;
+  height: 100%;
 }
 
 .card-footer {
   background-color: #FFFFFF;
   border: none;
   padding: 1.2rem 1.5rem;
+}
+
+.card-body {
+  padding-top: 1.25rem;
+  padding-bottom: 0rem;
 }
 
 @media (min-width: 1400px) {
@@ -504,12 +509,22 @@ body {
   height: 166px;
   padding: 0.5rem;
   background-image: url(../images/backgroundbutton.png);
-  background-size: contain;
+  background-size: cover;
+  height: 100%;
+  min-height: 150px;
   background-position: bottom;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.consulta-indicadores img {
+  width: 80px;
+  height: 80px;
 }
 
 .anchor-box-content {
@@ -524,6 +539,19 @@ body {
 footer {
   background-color: #1A212A;
   height: 10rem;
+}
+
+.capsulas-box {
+  background-image: url(../images/capsulas-form.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0rem 2rem;
+  padding-bottom: 15rem;
+}
+
+.card-box {
+  padding: 1rem;
 }
 
 .capsula-img img {
