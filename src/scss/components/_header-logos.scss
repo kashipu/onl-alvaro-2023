@@ -17,6 +17,11 @@
     justify-content: space-between;
     align-items: center;
     padding: .9rem;
+    .header-logo-potencia {
+        img {
+            width: 150px;
+        }
+    }
     .header-logo-entidad {
         img {
             width: 200px;

@@ -162,6 +162,9 @@ body {
   align-items: center;
   padding: 0.9rem;
 }
+.header-logos-box .header-logo-potencia img {
+  width: 150px;
+}
 .header-logos-box .header-logo-entidad img {
   width: 200px;
 }
