@@ -459,7 +459,8 @@ body {
   }
 }
 .slider-cards-box {
-  padding: 0rem 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .slick-prev {
@@ -555,6 +556,11 @@ footer {
 
 .card-box {
   padding: 1rem;
+}
+
+.capsulas-container {
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
 }
 
 .capsula-img img {
