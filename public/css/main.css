@@ -10,12 +10,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .title-h1 h1 {
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 1.728rem;
+  line-height: 2.125rem;
+  font-weight: 300;
+  color: #2C2C2C;
 }
 .title-h1 h2 {
-  font-size: 2rem;
+  font-size: 1.44rem;
+  line-height: 1.75rem;
   font-weight: 400;
+  color: #2C2C2C;
 }
 
 .title-capsula {
@@ -89,6 +93,173 @@ body {
   color: #132A36;
 }
 
+/* REFERENCES */
+/* 1. TYPOGRAPHY KIT UI V 8.1 OCT 2022 */
+.h1-kit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 2.5rem; /* 40px */
+  line-height: 3rem; /* 48px; */
+}
+
+.h2-kit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 2rem; /* 32px */
+  line-height: 2.5rem; /* 40px */
+}
+
+.h3-kit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 1.5rem; /* 24px; */
+  line-height: 2rem; /* 32px; */
+}
+
+.h4-kit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 1.25rem; /* 20px; */
+  line-height: 1.875rem; /* 30px; */
+}
+
+.h5-kit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 1.125rem; /* 18px; */
+  line-height: 1.5rem; /*24px ; */
+}
+
+.h6-kit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 1rem; /* 16px */
+  line-height: 1.375rem; /*22px */
+  color: rebeccapurple;
+}
+
+.description-kit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.5rem; /* 24px */
+}
+
+.body-text-1-kit {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1rem; /* 16px */
+  line-height: 1.375rem; /* 22px */
+}
+
+.body-text-2-kit {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+
+/* - - - */
+/* 1. TYPOGRAPHY ONL V 2.1 OCT 2023 */
+.display-onl {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 2.986rem; /* 48px */
+  line-height: 3.688rem; /* 60px */
+}
+
+.h1-onl {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 2.488rem; /* 40px */
+  line-height: 3.063rem; /* 49px */
+}
+
+.h2-onl {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 2.074rem; /* 33px */
+  line-height: 2.5rem; /* 40px */
+}
+
+.h3-onl {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 1.728rem; /* 28px */
+  line-height: 2.125rem; /* 34px */
+}
+
+.h4-onl {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 1.44rem; /* 23px */
+  line-height: 1.75rem; /* 28px */
+}
+
+.h5-onl {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 1.2rem; /* 19px */
+  line-height: 1.438rem; /* 23px */
+}
+
+.h6-onl {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 1rem; /* 16px */
+  line-height: 1.25rem; /* 23px */
+}
+
+.quote-onl {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300; /* Light */
+  font-size: 1.44rem; /* 23px */
+  line-height: 2.125rem; /* 27px */
+}
+
+.description-onl {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 1.2rem; /* 19px */
+  line-height: 1.375rem; /* 22px */
+}
+
+.body-text-1-onl {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400; /* Normal */
+  font-size: 1rem; /* 16px */
+  line-height: 1.188rem; /* 19px */
+}
+
+.body-text-2-onl {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600; /* Semi-bold */
+  font-size: 0.833rem; /* 13px */
+  line-height: 0.938rem; /* 15px */
+}
+
+.caption-onl {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600; /* Semi-bold */
+  font-size: 0.694rem; /* 11px */
+  line-height: 0.813rem; /* 13px */
+}
+
+/*
+Typography
+https://govco-prod-webutils.s3.amazonaws.com/uploads/2022-11-10/f7ea96de-bc8f-4564-baf8-6c61020c8624-Kit%20UI%20v8.1%20PDF.pdf
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+
+https://nekocalc.com/es/px-a-rem-conversor
+
+https://learn.microsoft.com/es-es/typography/opentype/spec/os2#usweightclass
+
+https://m2.material.io/design/typography/the-type-system.html#type-scale
+
+
+
+*/
 .btn-blue-background {
   color: #FFFFFF;
   background-color: #004884;
@@ -96,8 +267,8 @@ body {
 }
 .btn-blue-background:hover {
   color: #FFFFFF;
-  background-color: #002c51;
-  border-color: #002c51;
+  background-color: #cde3f6;
+  border-color: #cde3f6;
 }
 .btn-check:checked + .btn-blue-background, :not(.btn-check) + .btn-blue-background:active, .btn-blue-background:first-child:active, .btn-blue-background.active, .btn-blue-background.show {
   color: #FFFFFF;
@@ -113,11 +284,42 @@ body {
   border-color: #002c51;
 }
 
+.btn-outline-gray {
+  color: #2C2C2C;
+  border-color: #2C2C2C;
+}
+.btn-outline-gray:hover {
+  color: #FFFFFF;
+  background-color: #2C2C2C;
+  border-color: #2C2C2C;
+}
+.btn-outline-gray:focus, .btn-outline-gray.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+.btn-outline-gray.disabled, .btn-outline-gray:disabled {
+  color: #FFFFFF;
+  background-color: transparent;
+}
+.btn-outline-gray:not(:disabled):not(.disabled):active, .btn-outline-gray:not(:disabled):not(.disabled).active, .show > .btn-outline-gray.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #2C2C2C;
+  border-color: #2C2C2C;
+}
+.btn-outline-gray:not(:disabled):not(.disabled):active:focus, .btn-outline-gray:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-gray.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
 .card-title-capsulas {
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.2;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.375rem;
   margin-bottom: 0.75rem;
+}
+
+.card-text-capsulas {
+  font-weight: 400;
+  font-size: 0.833rem;
+  line-height: 1.125rem;
 }
 
 .btn-outline-primary {
@@ -214,7 +416,7 @@ body {
   color: #FFFFFF;
 }
 .header-nav-list-item:hover a img {
-  filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(343deg) brightness(104%) contrast(100%);
+  filter: invert(94%) sepia(0%) saturate(24%) hue-rotate(24deg) brightness(105%) contrast(108%);
 }
 .header-nav-list-item.active {
   background-color: #004884;
@@ -372,6 +574,12 @@ body {
   height: 100%;
 }
 
+.card-indicadores-text p {
+  font-weight: 400;
+  font-size: 0.833rem;
+  line-height: 1.125rem;
+}
+
 .card-indicadores-title {
   display: flex;
   justify-content: space-between;
@@ -383,8 +591,9 @@ body {
 }
 
 .card-indicadores-title-text h2 {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.375rem;
   margin: 0;
 }
 
@@ -420,11 +629,11 @@ body {
 }
 
 .title-card-indicadores {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 600;
   margin: 0.5rem 0rem;
-  color: #1A212A;
-  line-height: 1.5;
+  color: #2C2C2C;
+  line-height: 1.375rem;
 }
 
 .card-indicadores-footer {
@@ -521,7 +730,7 @@ body {
   align-items: flex-end;
   flex-wrap: wrap;
   gap: 1rem;
-  border-radius: 1rem;
+  border-radius: calc(0.25rem - 1px);
   padding: 1rem;
 }
 .consulta-indicadores img {
@@ -544,7 +753,7 @@ footer {
 }
 
 .capsulas-box {
-  background-image: url(../images/capsulas-form.png);
+  background-image: url(../images/cap-sec-bg-shape.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

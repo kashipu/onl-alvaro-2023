@@ -10,12 +10,16 @@ body {
     line-height: 1.2;
     font-family: $font-family-titles;
     h1 {
-        font-size: 2rem;
-        font-weight: 400;
+        font-size: 1.728rem;
+        line-height: 2.125rem;
+        font-weight: 300;
+        color: $gray-text;
     }
     h2 {
-        font-size: 2rem;
+        font-size: 1.440rem;
+        line-height: 1.75rem;
         font-weight: 400;
+        color: $gray-text;
     }
 }
 

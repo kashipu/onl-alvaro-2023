@@ -4,8 +4,8 @@
   border-color: $color;
     &:hover {
         color: $textColor;
-        background-color: darken($color, 10%);
-        border-color: darken($color, 10%);
+        background-color: $gray-text-hover;
+        border-color: $gray-text-hover;
     }
     .btn-check:checked + &,
     :not(.btn-check) + &:active,
@@ -26,3 +26,34 @@
     }
 }
 
+@mixin outline-generate-button($color, $textColor) {
+        color: $color;
+        border-color: $color;
+        &:hover {
+            color: $textColor;
+            background-color: $color;
+            border-color: $color;
+          }
+
+
+      &:focus, &.focus {
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+      }
+
+      &.disabled, &:disabled {
+        color: $textColor;
+        background-color: transparent;
+      }
+
+      &:not(:disabled):not(.disabled):active, &:not(:disabled):not(.disabled).active,
+      .show > &.dropdown-toggle {
+        color: $textColor;
+        background-color: $color;
+        border-color: $color;
+      }
+
+      &:not(:disabled):not(.disabled):active:focus, &:not(:disabled):not(.disabled).active:focus,
+      .show > &.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+      }
+}
