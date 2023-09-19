@@ -3,9 +3,9 @@
   background-color: $color;
   border-color: $color;
     &:hover {
-        color: $textColor;
+        color: $color;
         background-color: $gray-text-hover;
-        border-color: $gray-text-hover;
+        border-color: $color;
     }
     .btn-check:checked + &,
     :not(.btn-check) + &:active,
@@ -30,9 +30,9 @@
         color: $color;
         border-color: $color;
         &:hover {
-            color: $textColor;
-            background-color: $color;
-            border-color: $color;
+          color: $color;
+          background-color: $gray-text-hover;
+          border-color: $color;
           }
 
 
