@@ -1,5 +1,5 @@
 .btn-blue-background {
-    @include generate-button($blue-backgrounds, $white);
+    @include generate-button-background($blue-backgrounds, $blue-backgrounds-hover, $white);
 }
 
 .btn-outline-gray {

@@ -29,6 +29,7 @@
 @mixin outline-generate-button($color, $textColor) {
         color: $color;
         border-color: $color;
+        background-color: $white;
         &:hover {
           color: $color;
           background-color: $gray-text-hover;
@@ -56,4 +57,32 @@
       .show > &.dropdown-toggle:focus {
         box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
       }
+}
+
+@mixin generate-button-background($color, $hoverColor, $textColor) {
+  color: $textColor;
+  background-color: $color;
+  border-color: $color;
+    &:hover {
+        color: $textColor;
+        background-color: $hoverColor;
+        border-color: $color;
+    }
+    .btn-check:checked + &,
+    :not(.btn-check) + &:active,
+     &:first-child:active,
+    &.active,
+    &.show {
+        color: $textColor;
+        background-color: $color;
+        border-color: darken($color, 10%);
+    }
+    &:focus, &.focus {
+        box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+    }
+    &:disabled, &.disabled {
+        color: $textColor;
+        background-color: darken($color, 10%);
+        border-color: darken($color, 10%);
+    }
 }

@@ -266,8 +266,8 @@ https://m2.material.io/design/typography/the-type-system.html#type-scale
   border-color: #004884;
 }
 .btn-blue-background:hover {
-  color: #004884;
-  background-color: #cde3f6;
+  color: #FFFFFF;
+  background-color: #022D58;
   border-color: #004884;
 }
 .btn-check:checked + .btn-blue-background, :not(.btn-check) + .btn-blue-background:active, .btn-blue-background:first-child:active, .btn-blue-background.active, .btn-blue-background.show {
@@ -287,6 +287,7 @@ https://m2.material.io/design/typography/the-type-system.html#type-scale
 .btn-outline-gray {
   color: #2C2C2C;
   border-color: #2C2C2C;
+  background-color: #FFFFFF;
 }
 .btn-outline-gray:hover {
   color: #2C2C2C;
